@@ -1,4 +1,4 @@
-<dialog #dialogRef>
+<dialog #dialogRef class="{{ position() }}">
   @if (layout() === 'one'){
     <ng-container [ngTemplateOutlet]="configRefOne"></ng-container>
   } @else {
